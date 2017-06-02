@@ -36,8 +36,9 @@ otherwise your kernel wil likely crash
 The code has been developed by:
 - Francesco Quaglia <quaglia@dis.uniroma1.it>
 - Alessandro Pellegrini <pellegrini@dis.uniroma1.it>
+- Emanuele De Santis <desantis.1664777@studenti.uniroma1.it>
 
-and is Copyright (C) 2015 HPDCS Group, http://www.dis.uniroma1.it/~hpdcs
+and is Copyright (C) 2017 HPDCS Group, http://www.dis.uniroma1.it/~hpdcs
 
 For installation and usage information, please refer to INSTALL.
 
