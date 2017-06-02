@@ -9,7 +9,7 @@ the custom function or not
 This module patches at run-time the kernel schedule() and enables running a schedule-hook
 function as the last task of thread re-schedule 
 
-The scehdule-hook function is embedded within this module, it checks the value of a function pointer
+The schedule-hook function is embedded within this module, it checks the value of a function pointer
 and in case it is not null the target functio is called
 
 In cross compilation the function pointer is exported as a symbol to be updated while mounting 
