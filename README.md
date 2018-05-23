@@ -18,20 +18,20 @@ the module containing the custom functions to be run
 Otherwise, the function ponter is accessible as a pseudofile called 
 /sys/module/schedule_hook/parameters/the_hook  
 
-In the latter configuraiton, after mounting the module, you can load any function pointer 
+In the latter configuration, after mounting the module, you can load any function pointer 
 you would like (pointing to kernel stuff) by writing it on that pseudofile
 
 The custom function to be run needs to get no paramter in input
 
-Please check with the follosing configuration macros to manage the configuration of this module:
-- DEBUG and DEBUG_SCHEDULE_HOOK for enalbing or disabling debugging/audit stuff
+Please check with the following configuration macros to manage the configuration of this module:
+- DEBUG and DEBUG_SCHEDULE_HOOK for enabling or disabling debugging/audit stuff
 - SYS_FS for enabling of disabling the reliance on /sys
 
 NOTE: the custom function is expected to be non-blocking, 
 in case it is blocking the unmount of this module may hang
 
 NOTE: this module should be unmounted before unmounting the one containing the custom function
-otherwise your kernel wil likely crash
+otherwise your kernel will likely crash
 
 The code has been developed by:
 - Francesco Quaglia <quaglia@dis.uniroma1.it>
